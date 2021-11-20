@@ -31,12 +31,12 @@ public class InsertActionListener2 implements ActionListener {
 		        ps.setString(3, text3.getText());
 		       	 
 		       	ps.executeUpdate();
-		    	System.out.println("DB Ãß°¡ ¿Ï·á\n");
+		    	System.out.println("DB ì¶”ê°€ ì™„ë£Œ\n");
 	        }
                 
 	            
 	        catch (ClassNotFoundException cnfe) {
-	        	System.out.println("ÇØ´ç Å¬·¡½º¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù." +	cnfe.getMessage());
+	        	System.out.println("í•´ë‹¹ í´ë˜ìŠ¤ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤." +	cnfe.getMessage());
 	        }
 	        catch(SQLException se) {
 	        	System.out.println(se.getMessage());
